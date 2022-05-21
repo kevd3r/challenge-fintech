@@ -1,8 +1,52 @@
+/*used colors :
+#F7071F red
+#FEED07 yellow
+#07F71F pure green
+#FEED07 #7F1504 dégradé radial 
+#353B40 darkgray
+#707070 midgray
+#FFFFFF white
+#E0E5EC lightgray
+#141414 almost black
+svg code for the logo
+  <svg id="Logo" xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="300" height="300" viewBox="0 0 300 300"> 
+  <defs> <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.707" 
+    gradientTransform="translate(-0.019 0.019) rotate(-2.183)" 
+    gradientUnits="objectBoundingBox"> 
+    <stop offset="0" stop-color="#feed07"/> 
+    <stop offset="1" stop-color="#7f4604"/> 
+  </radialGradient> </defs> 
+  <path id="Logo-2" data-name="Logo" 
+  d="M3341,3329a150,150,0,1,1,50.214-291.388,41.859,41.859,0,0,0-.21,4.208,41.136,41.136,0,0,0,20.852,35.733,41.063,
+  41.063,0,0,0,40.687,46.32c.945,0,1.935-.034,2.937-.1a41.075,41.075,0,0,0,32.55,25.374A151.1,151.1,0,0,1,3491,
+  3179a149.864,149.864,0,0,1-150,150Zm1.286-189.743a41.026,41.026,0,1,0,41.023,41.026A41.072,41.072,0,0,0,3342.285,3139.256Z" 
+  transform="translate(-3190.999 -3028.999)" fill="url(#radial-gradient)"/> 
+</svg>
+*/
 *{
   font-family: 'Roboto';
+  //background-color: #141414;
+  //color: #E0E5EC;
 }
 
 #logo{
-  width: 10%;
-  height: 10%;
+  width: auto;
+  height: 10vh;
+}
+
+.content{
+  align-items: center;
+}
+.nav-link {
+  color: #E0E5EC;
+}
+
+#root, .header, #td-rendering{
+  display: flex;
+}
+
+#td-rendering{
+  align-items: center;
 }
